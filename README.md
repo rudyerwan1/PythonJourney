@@ -1,22 +1,27 @@
-# PythonJourney
 
-Un parcours d'apprentissage Python documenté, où je construis ma logique de programmation étape par étape. Ce dépôt contient :
+# 🚀 Python Learning Journey
 
-🎯 Objectifs :
-- Développer des applications web personnalisées (blog, système de gestion des visiteurs, hub personnel)
-- Maîtriser les concepts fondamentaux de Python
-- Améliorer ma logique de programmation
+A documented Python learning path where I build my programming logic step by step. This repository contains:
 
-📚 Contenu :
-- Exercices pratiques
-- Projets d'apprentissage
-- Quiz et challenges
-- Notes et documentation personnelle
+## 🎯 Objectives:
+- Develop custom web applications (blog, visitor management system, personal hub)
+- Master Python fundamentals
+- Improve my programming logic
+- Apply programming skills to cybersecurity projects
 
-🛠️ Technologies à apprendre :
-- Python (bases, structures de données, fonctions)
-- Flask/Django (pour le web)
-- Bases de données
+## 📚 Content:
+- Practical exercises
+- Learning projects
+- Quizzes and challenges
+- Personal notes and documentation
+
+## 🛠️ Technologies to Learn:
+- Python (basics, data structures, functions)
+- Flask/Django (for web development)
+- Databases
 - HTML/CSS
 
-Un voyage d'apprentissage en direct, des premières lignes de code aux applications complètes ! 🚀
+## 👨‍💻 About Me:
+My name is Rudy Erwan. My passions include cybersecurity, music, and homelabbing, but I also have a strong interest in coding, especially Python. This repository serves as a reference for me to track my improvement and ensure that I continue to practice my Python and programming skills until I become fluent.
+
+A live learning journey, from the first lines of code to complete applications! 🚀
