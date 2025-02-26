@@ -5,7 +5,7 @@ bill_amount= float(input("What is the total bill? \n"))
 
 tips_amount =int(input("How much tips would you like to give ? 10,12,15 \n"))
 if tips_amount == 15 :
-    print("Waouh you so generous!")
+    print(" Waouh you so generous!")
 else :
     print("Thank you buddy ")
 people_shared = int(input("How many people will shared the bill?\n"))
