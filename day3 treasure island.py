@@ -43,6 +43,7 @@ Instructions:
 
         Otherwise: Potion failed
 """
+#my solution:
 print("Welcome to the Harry Poter game\n")
 print(r"""
 
