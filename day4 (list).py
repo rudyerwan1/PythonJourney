@@ -1,11 +1,11 @@
 #rock paper scissors game
-import random
 """
 Friends = ["camille", "lyana", "george", "ray" , "mireille" , "park"]
 print(random.choice(Friends))
 """
 #rock paper ciseau rock
 #user_choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors\n")
+import random
 user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors\n"))
 choice = ["Rock", "Paper", "Scissors"]
 computer_choice = random.choice(choice)
