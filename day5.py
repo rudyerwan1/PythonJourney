@@ -17,6 +17,8 @@ for number in range (1,101):
         print(number)
 
 """
+from typing import final
+
 """
 #Password generator,
 import random
@@ -66,10 +68,21 @@ words = ['dog', 'cat', 'house', 'tree', 'car', 'book', 'sun', 'moon',
          'table', 'chair', 'door', 'window', 'mountain', 'river', 'ocean']
 numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 symbols = ['!', '@', '#', '$', '%', '&', '*', '?', '+', '-']
+secret_phase = []
 
 # Complete the program!
 # Ask how many words the user wants
-# Ask if they want numbers between words
-# Ask if they want symbols between words
-# Generate the secret phrase
-# Display the result
+nb_words = int(input("How Many word would you like ?\n"))
+add_numbers = input("Would you like numbers in your code select yes/no ?\n").lower() == "yes"
+add_symbols = input("Would you like symbols in your code ?\n").lower() == "yes"
+for i in range (nb_words):
+    secret_phase.append(random.choice(words))
+    if i < nb_words -1 :
+        if add_numbers:
+            secret_phase.append(random.choice(numbers))
+        if add_symbols:
+            secret_phase.append(random.choice(symbols))
+    else:
+        print("ok sounds good no number or symbols")
+final_secret_phrase = ''.join(secret_phase)
+print(final_secret_phrase)
