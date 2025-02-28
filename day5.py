@@ -85,4 +85,4 @@ for i in range (nb_words):
     else:
         print("ok sounds good no number or symbols")
 final_secret_phrase = ''.join(secret_phase)
-print(final_secret_phrase)
+print(f"here you secret phrase buddy ! {final_secret_phrase}")
