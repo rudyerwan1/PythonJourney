@@ -1,9 +1,7 @@
-
+#rock paper scissors game
 import random
 """
-Friends = ["chapie", "russel", "roslin", "amadou" , "brice" , "donaold"]
-#Friends = ["chapie", "russel", "roslin", "amadou" , "brice" , "donaold"]
-
+Friends = ["camille", "lyana", "george", "ray" , "mireille" , "park"]
 print(random.choice(Friends))
 """
 #rock paper ciseau rock
