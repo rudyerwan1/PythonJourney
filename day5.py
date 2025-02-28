@@ -17,7 +17,7 @@ for number in range (1,101):
         print(number)
 
 """
-from typing import final
+#from typing import final
 
 """
 #Password generator,
